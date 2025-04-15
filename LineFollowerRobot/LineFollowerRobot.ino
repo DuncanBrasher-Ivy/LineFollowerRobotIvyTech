@@ -20,7 +20,7 @@ int enableLeftMotor=5;
 int leftMotorPin1=9;
 int leftMotorPin2=10;
 
-// Remote
+// Remote (RC code is based on the following video: https://youtu.be/q-Clw0m3E18)
 int receiver_pins[] = {A0, A1, A2, A3, A4, A5};
 int receiver_values[] = {0, 0, 0, 0, 0, 0};
 int res_min = 950;
