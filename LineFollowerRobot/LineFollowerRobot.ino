@@ -131,10 +131,10 @@ void loop()
 
     if (mode == 1) {
       m1 = receiver_values[1] / 2 + (rot)/1.5;
-      m2 = receiver_values[1] / 2 - (rot)/1.5;
+      m2 = receiver_values[2] / 2 - (rot)/1.5;
     } else if (mode == 2) {
       m1 = receiver_values[1] + rot / 1.75;
-      m2 = receiver_values[1] - rot / 1.75;
+      m2 = receiver_values[2] - rot / 1.75;
     }
     rotateMotors(m1, m2);
   } else {
